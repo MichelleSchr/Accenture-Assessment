@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public class App
 {
+
     // Fetch the json of all countries via the restcountries API and parse it into a list of Country objects
     public static List<Country> getCountries() throws Exception {
         HttpClient httpClient = HttpClient.newHttpClient();
